@@ -15,7 +15,7 @@
 ✔️ Open Source Projects Koneksi dengan Github\
 ✔️ Real Time Chat
 
-<!-- Untuk melihat contoh langsung, **[click here](https://ashutosh1919.github.io/)** -->
+Untuk melihat contoh langsung, **[klik](https://akhfas-messager-clone.netlify.app/)**
 
 # 🚀🚀🚀 Clone dan Gunakan 🚀🚀🚀
 
@@ -60,10 +60,9 @@ export default db;
 ```
   Ini mungkin akan berbeda dengan punya anda, dan itu tidak masalah. Cukup salin script punya anda dan masukan di file ```firebase.js```
 
-👉 Dan Jalankan perintah berikut:
+👉 Untuk membuka situs web secara lokal di browser, jalankan perintah berikut:
  ```javascript  
     npm start
 ```
-👉 Gunakan perintah `npm start`, untuk membuka situs web secara lokal di browser Anda.
 
 ## Yoooo 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥
