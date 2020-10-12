@@ -17,17 +17,17 @@
 
 <!-- Untuk melihat contoh langsung, **[click here](https://ashutosh1919.github.io/)** -->
 
-# Clone dan Gunakan 🚀🚀🚀
+# 🚀🚀🚀 Clone dan Gunakan 🚀🚀🚀
 
-## 👉 Clone  repositori ke sistem lokal Anda menggunakan perintah di bawah ini:
+👉 Clone  repositori ke sistem lokal Anda menggunakan perintah di bawah ini:
   ```javascript
      git clone https://github.com/akhfasarrofi/messager-clone.git
 ```
 
-## 👉 Buka direktori, anda akan melihat isi file  `/src/firebase.js`.
+👉 Buka direktori, anda akan melihat isi file  `/src/firebase.js`.
 
 ```javascript
-    import firebase from "firebase";
+import firebase from "firebase";
 
 const firebaseApp = firebase.initializeApp({
    "FIREBASE SDK ANDA"
@@ -39,14 +39,15 @@ export default db;
 
 ```
 
-## 👉 Pergi ke **[firebase](https://firebase.google.com/docs)** dan buat projek firebase, kemudian buka console firebase anda.
+👉 Pergi ke **[firebase](https://firebase.google.com/docs)** dan buat projek firebase, kemudian buka console firebase anda.
 
-## 👉 Setelah di console firebase, buka ```Setelan roject``` yang ada di pengaturan.
+👉 Setelah di console firebase, buka ```Setelan roject``` yang ada di pengaturan.
 <p align="center"> 
     <img src="images/firebase.JPG"></img>
 </p>
 
-## 👉 Scroll kewabah, anda akan menemukan ```Firebase SDK snippet``` pilih yang ```Config```, anda akan melihat potongan baris kode seperti berikut:
+👉 Scroll kewabah, anda akan menemukan ```Firebase SDK snippet``` pilih yang ```Config```, anda akan melihat potongan baris kode seperti berikut:
+
 ```javascript
     apiKey: "AIzaSyCrFFDx62swfDDktnL39HfX9k1G7Fj4kgY",
     authDomain: "messager-clone-64384.firebaseapp.com",
@@ -59,12 +60,10 @@ export default db;
 ```
   Ini mungkin akan berbeda dengan punya anda, dan itu tidak masalah. Cukup salin script punya anda dan masukan di file ```firebase.js```
 
-## 👉 Dan Jalankan perintah berikut:
+👉 Dan Jalankan perintah berikut:
  ```javascript  
     npm start
-    ```
+```
 👉 Gunakan perintah `npm start`, untuk membuka situs web secara lokal di browser Anda.
 
-</br>
-
-## 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 
+## Yoooo 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥
