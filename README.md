@@ -1,72 +1,61 @@
-<<<<<<< HEAD
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center"> 
+    <img src="images/banner.JPG" align="center"></img>
+</p>
 
-## Available Scripts
+<h1 align="center"> Rela Time Chattinng 🔥🔥🔥 </h1>
 
-In the project directory, you can run:
+<p align="center">
+  <a href="https://www.npmjs.com/package/npm/v/6.13.4"><img alt="NPM" src="https://img.shields.io/badge/npm-6.13.7-blueviolet?style=flat-square" /></a>
+  <a href="https://nodejs.org/en/blog/release/v12.13.0/"><img alt="NodeJS" src="https://img.shields.io/badge/node-12.14.1-important?style=flat-square" /></a>
+  <a href="https://reactjs.org/"><img alt="Made With React" src="https://img.shields.io/badge/made%20with-react-61DAFB?style=flat-square" /></a>
+  <a href="https://firebase.google.com/support/release-notes/js"><img src="https://img.shields.io/badge/firebase-7.22.1-yellow" /></a>
+  <a href="https://material-ui.com/getting-started/installation/"><img src="https://img.shields.io/badge/material--ui-core-brightgreen" /></a>
+</p>
 
-### `npm start`
+✔️ Open Source Projects Koneksi dengan Github\
+✔️ Real Time Chat
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- Untuk melihat contoh langsung, **[click here](https://ashutosh1919.github.io/)** -->
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+# Clone dan Gunakan 🚀🚀🚀
 
-### `npm test`
+👉 Clone  repositori ke sistem lokal Anda menggunakan perintah di bawah ini:
+  - ```python
+     git clonehttps://github.com/akhfasarrofi/messager-clone.git
+    ```
+👉 Buka direktori, anda akan melihat file  ```firebase.js```.
+- ```python
+    import firebase from "firebase";
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+const firebaseApp = firebase.initializeApp({
+   "FIREBASE SDK ANDA"
+});
 
-### `npm run build`
+const db = firebaseApp.firestore();
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+export default db;
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-=======
-# facebook-messager-clone
->>>>>>> 82ad4348d7c027e651ba9379b1d89f449b296b77
+    ```
+👉 Pergi ke **[firebase](https://firebase.google.com/docs)** dan buat projek firebase, kemudian buka console firebase anda.
+👉 Setelah di console firebase, buka ```Setelan roject``` yang ada di pengaturan.
+<p align="center"> 
+    <img src="images/firebase.JPG"></img>
+</p>
+👉 Scroll kewabah, anda akan menemukan ```Firebase SDK snippet``` pilih yang ```Config```, anda akan melihat potongan baris kode seperti berikut:
+- ```python
+    apiKey: "AIzaSyCrFFDx62swfDDktnL39HfX9k1G7Fj4kgY",
+    authDomain: "messager-clone-64384.firebaseapp.com",
+    databaseURL: "https://messager-clone-64384.firebaseio.com",
+    projectId: "messager-clone-64384",
+    storageBucket: "messager-clone-64384.appspot.com",
+    messagingSenderId: "396175517209",
+    appId: "1:396175517209:web:00a418574c6c6e84cd2c88",
+    measurementId: "G-VXP1T8FVXN"
+  ```
+  Ini mungkin akan berbeda dengan punya anda, dan itu tidak masalah. Cukup salin script punya anda dan masukan di file ```firebase.js```
+👉 Dan Jalankan perintah berikut:
+  - ```python
+    npm start
+    ```
+👉 Gunakan perintah `npm start`, untuk membuka situs web secara lokal di browser Anda.
+🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 🔥🔥🔥 
