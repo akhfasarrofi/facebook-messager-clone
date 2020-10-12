@@ -10,6 +10,7 @@
   <a href="https://reactjs.org/"><img alt="Made With React" src="https://img.shields.io/badge/made%20with-react-61DAFB?style=flat-square" /></a>
   <a href="https://firebase.google.com/support/release-notes/js"><img src="https://img.shields.io/badge/firebase-7.22.1-yellow" /></a>
   <a href="https://material-ui.com/getting-started/installation/"><img src="https://img.shields.io/badge/material--ui-core-brightgreen" /></a>
+  <a href="https://app.netlify.com/sites/akhfas-messager-clone/deploys"><img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/abf59f82-3251-4040-b24c-949b86691642/deploy-status?style=flat-square" /></a>
 </p>
 
 ✔️ Open Source Projects Koneksi dengan Github\
