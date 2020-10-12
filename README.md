@@ -24,6 +24,7 @@ Untuk melihat contoh langsung, **[klik](https://akhfas-messager-clone.netlify.ap
   ```javascript
      git clone https://github.com/akhfasarrofi/messager-clone.git
 ```
+Jalankan perintah `npm install`.
 
 👉 Buka direktori, anda akan melihat isi file  `/src/firebase.js`.
 
