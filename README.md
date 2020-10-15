@@ -16,7 +16,7 @@
 ✔️ Open Source Projects Koneksi dengan Github\
 ✔️ Real Time Chat
 
-Untuk melihat contoh langsung, **[klik](https://akhfas-messager-clone.netlify.app/)**
+Untuk melihat contoh langsung, **[klik](https://akhfas-facebook-messager-clone.netlify.app/)**
 
 # 🚀🚀🚀 Clone dan Gunakan 🚀🚀🚀
 
