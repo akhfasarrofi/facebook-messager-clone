@@ -1,5 +1,4 @@
 language: node_js
-
 node_js:
   - 12.19.0
 
@@ -11,6 +10,7 @@ script:
   - npm run build
 
 deploy:
+  provider: netlify
   skip_cleanup: true
   github_token: $github_token
   local_dir: build
