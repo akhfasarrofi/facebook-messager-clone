@@ -48,18 +48,9 @@ export default db;
     <img src="images/firebase.JPG"></img>
 </p>
 
-👉 Scroll kewabah, anda akan menemukan ```Firebase SDK snippet``` pilih yang ```Config```, anda akan melihat potongan baris kode seperti berikut:
+👉 Scroll kewabah, anda akan menemukan ```Firebase SDK snippet``` pilih yang ```Config```, copy potongan baris kode dan masukan di ```FIREBASE SDK ANDA```:
 
-```javascript
-    apiKey: "AIzaSyCrFFDx62swfDDktnL39HfX9k1G7Fj4kgY",
-    authDomain: "messager-clone-64384.firebaseapp.com",
-    databaseURL: "https://messager-clone-64384.firebaseio.com",
-    projectId: "messager-clone-64384",
-    storageBucket: "messager-clone-64384.appspot.com",
-    messagingSenderId: "396175517209",
-    appId: "1:396175517209:web:00a418574c6c6e84cd2c88",
-    measurementId: "G-VXP1T8FVXN"
-```
+
   Ini mungkin akan berbeda dengan punya anda, dan itu tidak masalah. Cukup salin script punya anda dan masukan di file ```firebase.js```
 
 👉 Untuk membuka situs web secara lokal di browser, jalankan perintah berikut:
