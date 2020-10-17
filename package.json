@@ -2,6 +2,7 @@
   "name": "facebook-messeger-clone",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://akhfas-facebook-messager-clone.netlify.app/",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
@@ -17,7 +18,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "CI=true react-scripts test --env=jsdom",
+    "test:coverage": "npm test -- --coverage",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
