@@ -6,7 +6,6 @@
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
     "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "firebase": "^7.20.0",
     "react": "^16.13.1",
@@ -17,7 +16,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "jest",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -34,5 +33,22 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "<h1 align=\"center\"> Real Time Chatting 🔥🔥🔥 </h1>",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.12.1",
+    "@testing-library/react": "^9.5.0",
+    "jest": "^26.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akhfasarrofi/facebook-messager-clone.git"
+  },
+  "author": "zakaria akhfas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akhfasarrofi/facebook-messager-clone/issues"
+  },
+  "homepage": "https://github.com/akhfasarrofi/facebook-messager-clone#readme"
 }
