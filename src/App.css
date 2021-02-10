@@ -1,26 +1,44 @@
-.App {
-  text-align: center;
-}
-
-.app__form{
-  padding: 20px;
+.app__form {
   position: fixed;
-  bottom: 0;/* mengubah posisi form ke bawah  */
+  bottom: 0;
   z-index: 1;
-  background-color: #e9e9eb;
-  width: 95%;
+  width: 46%;
   margin: 20px;
+  background-color: rgba(236, 243, 249, 255) !important;
+  border-radius: 30px;
 }
 
-.app__formControl{
+.app__formControl {
   display: flex !important;
   flex-direction: row !important;
 }
 
-.app__input{
+.app__input {
   flex: 1;
 }
 
-.app__iconButton{
+.app__iconButton {
   flex: 0;
+}
+
+.header {
+  display: flex;
+  place-items: center;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.header > .MuiAvatar-root {
+  margin-left: 10px;
+}
+
+.header > p {
+  margin-left: 15px;
 }
