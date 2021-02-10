@@ -1,19 +1,32 @@
-.message{
-    padding: 18px;
-    margin: 10px;
-    width: fit-content;
+.message {
+  padding: 18px;
+  margin: 10px;
+  width: fit-content;
 }
 
-.message__user{
-    margin-left: auto;
-    color: white;
-    text-align: left !important;
+.message__user {
+  margin-left: auto;
+  color: white;
+  text-align: left !important;
 }
 
-.message__userCard{
-    background-color: #0b81ff !important;
+.message__userCard {
+  /* background-color: #0b81ff !important; */
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
 }
 
-.message__guestCard{
-    background-color: #e9e9eb !important;
+.message__guestCard {
+  background-color: rgba(236, 243, 249, 255) !important;
+  border-bottom-right-radius: 20;
+  border-top-left-radius: 20;
+  border-top-right-radius: 20px;
+}
+
+.MuiPaper-rounded {
+  border-radius: 0;
 }

@@ -1,73 +1,81 @@
-import React, { useState, useEffect } from 'react';
-import { FormControl, Input } from '@material-ui/core';
-import './App.css';
-import Message from './Message';
-import db from './firebase';
-import firebase from 'firebase';
-import FlipMove from 'react-flip-move';
-import SendIcon from '@material-ui/icons/Send';
-import { IconButton } from '@material-ui/core';
+import React, { useState, useEffect } from "react";
+import { Avatar, FormControl, Grid, Input } from "@material-ui/core";
+import "./App.css";
+import Message from "./Message";
+import db from "./firebase";
+import firebase from "firebase";
+import FlipMove from "react-flip-move";
+import SendIcon from "@material-ui/icons/Send";
+import { IconButton } from "@material-ui/core";
 
 function App() {
-  const [input, setInput] = useState('');
+  const [input, setInput] = useState("");
   const [messages, setMessages] = useState([]);
-  const [username, setUsername] = useState('');
+  const [username, setUsername] = useState("");
 
-  /* useState = variable in REACT */
-  /* useEffect = run code on a condition in REACT */
   useEffect(() => {
-    /* run one when the app components loads / mengambil data di database firebase dan diurutakan berdasrkan desc */
-    db.collection('messages')
-      .orderBy('timestamp', 'desc')
-      .onSnapshot(snapshot => {
-        setMessages(snapshot.docs.map(doc => ({ id: doc.id, message: doc.data() })))
+    db.collection("messages")
+      .orderBy("timestamp", "desc")
+      .onSnapshot((snapshot) => {
+        setMessages(
+          snapshot.docs.map((doc) => ({ id: doc.id, message: doc.data() }))
+        );
       });
-  }, [])
-
+  }, []);
 
   useEffect(() => {
-    /* const username= promt ('Please enter your name'); */
-    setUsername(prompt('Please enter your name'))
-
-  }, []) /* condition */
+    setUsername(prompt("Please enter your name"));
+  }, []);
 
   const sendMessage = (event) => {
-    /* ketika di enter langsung keluar nilai nya */
     event.preventDefault();
 
-    /* manambahkan data ke database firebase */
-    db.collection('messages').add({
+    db.collection("messages").add({
       message: input,
       username: username,
-      timestamp: firebase.firestore.FieldValue.serverTimestamp()
-    })
-    setInput('');
-  }
+      timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+    });
+    setInput("");
+  };
 
   return (
-    <div className="App">
-      <img src="https://facebookbrand.com/wp-content/uploads/2018/09/Header-e1538151782912.png?w=100&h=100" alt="" />
-      <h1>Hello Guys</h1>
-      <h2>Welcome {username}</h2>
+    <Grid
+      item
+      xs={12}
+      sm={6}
+      style={{ margin: "auto", textAlign: "center", padding: "20px" }}
+      className="App"
+    >
+      <div className="header">
+        <Avatar>H</Avatar>
+        <p>{username}</p>
+      </div>
 
+      <FlipMove>
+        {messages.map(({ id, message }) => (
+          <Message key={id} username={username} message={message} />
+        ))}
+      </FlipMove>
       <form className="app__form">
         <FormControl className="app__formControl">
-          <Input className="app__input" placeholder='Enter message...' value={input} onChange={event => setInput(event.target.value)} />
-          <IconButton className="app__iconButton" disabled={!input} variant="contained" color="primary" onClick={sendMessage}>
+          <Input
+            className="app__input"
+            placeholder="Enter message..."
+            value={input}
+            onChange={(event) => setInput(event.target.value)}
+          />
+          <IconButton
+            className="app__iconButton"
+            disabled={!input}
+            variant="contained"
+            color="primary"
+            onClick={sendMessage}
+          >
             <SendIcon />
           </IconButton>
         </FormControl>
       </form>
-
-      <FlipMove>
-        {
-          messages.map(({ id, message }) => (
-            /* id, username, message diambil dari field database (jika key={id} dihapus pesan akan geser dari kiri ke kanan)*/
-            <Message key={id} username={username} message={message} />
-          ))
-        }
-      </FlipMove>
-    </div>
+    </Grid>
   );
 }
 
